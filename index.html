@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Travel Blog App">
+    <meta property="og:image"
+        content="https://res.cloudinary.com/dnc9qwi7l/image/upload/v1682403435/Travel%20Blog%20App/bg9_oe8ek3.jpg">
+    <meta property="og:url" content="https://goku-travel.netlify.app/">
+    <!-- Font Awesome Cdn link -->
+    <script src="https://kit.fontawesome.com/676eaf438a.js" crossorigin="anonymous"></script>
+    <!-- JQuery Cdn link -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- AOS Animation css Cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Hospital Website</title>
+</head>
+
+<body>
+
+    <div class="main_section">
+        <!-- Navbar & Hero Background Image Section -->
+        <div class="bg_image_section">
+            <!-- Navbar Section -->
+            <nav class="nav_section">
+                <a href="#" class="logo_link">Hospital</a>
+                <ul>
+                    <li><a href="#" class="nav_link active">Home</a></li>
+                    <li><a href="#service" class="nav_link">Services</a></li>
+                    <li><a href="#aboutus" class="nav_link">About Us</a></li>
+                    <li><a href="#doctors" class="nav_link">Doctors</a></li>
+                    <li><a href="#department" class="nav_link">Departments</a></li>
+                    <li><a href="#blog" class="nav_link">Blog</a></li>
+                    <li><a href="#contact" class="nav_link">Contact Us</a></li>
+                </ul>
+                <div id="toggleIcon">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </nav>
+            <!-- Hero Section -->
+            <section class="hero_section">
+                <div class="text_section">
+                    We will help you, <br> <span>To Become Healthy</span>
+                </div>
+                <div class="btn_group">
+                    <button class="btn bg_btn">Check Up</button>
+                    <button class="btn border_btn">Book Appoinment</button>
+                </div>
+            </section>
+        </div>
+        <!-- Services Section -->
+        <div class="service_section" id="service">
+            <div class="tag_section tag_center">
+                <h6 class="tag_title">Our Services</h6>
+                <div class="tag_indicator">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <h6 class="desc">We are regularly providing the following services</h6>
+            <div class="service_box">
+                <div class="service_card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="service_icon_box">
+                        <img src="./img/service-1.png" alt="Service 1" class="img">
+                    </div>
+                    <div class="service_title">Cardiology</div>
+                    <div class="service_desc">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </div>
+                    <button class="learn_more">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="service_card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="service_icon_box">
+                        <img src="./img/service-2.png" alt="Service 2" class="img">
+                    </div>
+                    <div class="service_title">Neurology</div>
+                    <div class="service_desc">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </div>
+                    <button class="learn_more">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="service_card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="service_icon_box">
+                        <img src="./img/service-3.png" alt="Service 3" class="img">
+                    </div>
+                    <div class="service_title">Urology</div>
+                    <div class="service_desc">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </div>
+                    <button class="learn_more">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="service_card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="service_icon_box">
+                        <img src="./img/service-3.png" alt="Service 1" class="img">
+                    </div>
+                    <div class="service_title">Cardiology</div>
+                    <div class="service_desc">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </div>
+                    <button class="learn_more">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="service_card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="service_icon_box">
+                        <img src="./img/service-2.png" alt="Service 2" class="img">
+                    </div>
+                    <div class="service_title">Neurology</div>
+                    <div class="service_desc">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </div>
+                    <button class="learn_more">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="service_card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="service_icon_box">
+                        <img src="./img/service-1.png" alt="Service 3" class="img">
+                    </div>
+                    <div class="service_title">Urology</div>
+                    <div class="service_desc">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </div>
+                    <button class="learn_more">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- About Section -->
+        <div class="about_section" id="aboutus">
+            <div class="image_section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="./img/about-img.jpg" alt="About us Image" class="about_img">
+            </div>
+            <div class="content_section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                <div class="tag_section">
+                    <h6 class="tag_title">About Us</h6>
+                    <div class="tag_indicator">
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <h6 class="about_title">
+                    We are Achieve the Success of Treatment
+                </h6>
+                <p class="about_desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed eaque ratione quas hic
+                    accusantium earum itaque nemo officia aperiam tenetur labore, recusandae in, similique, ad doloribus
+                    consectetur rerum temporibus! Eveniet quibusdam, tempore sunt reprehenderit dicta earum explicabo
+                    maiores! Quisquam.
+                </p>
+                <button class="btn about_btn bg_btn">
+                    Know more <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Divider -->
+        <hr class="divider">
+        <!-- Doctors Section -->
+        <div class="doctors_section" id="doctors">
+            <div class="tag_section tag_center">
+                <h6 class="tag_title">Our Journey</h6>
+                <div class="tag_indicator">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <h6 class="desc">We travelled the following travel categories.</h6>
+            <div class="doctor_box">
+                <div class="doctor_card" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://cdn.pixabay.com/photo/2017/05/23/17/12/doctor-2337835_960_720.jpg"
+                        alt="Travel Category Image" class="cat_img">
+                    <div class="cat_title">Dr. John Smith</div>
+                    <div class="position">Heart Doctor</div>
+                </div>
+                <div class="doctor_card" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_960_720.jpg"
+                        alt="Travel Category Image" class="cat_img">
+                    <div class="cat_title">Dr. Taylor Swift</div>
+                    <div class="position">Eye Doctor</div>
+                </div>
+                <div class="doctor_card" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://cdn.pixabay.com/photo/2017/05/23/17/12/doctor-2337835_960_720.jpg"
+                        alt="Travel Category Image" class="cat_img">
+                    <div class="cat_title">Dr. John Smith</div>
+                    <div class="position">Heart Doctor</div>
+                </div>
+                <div class="doctor_card" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_960_720.jpg"
+                        alt="Travel Category Image" class="cat_img">
+                    <div class="cat_title">Dr. Taylor Swift</div>
+                    <div class="position">Eye Doctor</div>
+                </div>
+                <div class="doctor_card" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://cdn.pixabay.com/photo/2017/05/23/17/12/doctor-2337835_960_720.jpg"
+                        alt="Travel Category Image" class="cat_img">
+                    <div class="cat_title">Dr. John Smith</div>
+                    <div class="position">Heart Doctor</div>
+                </div>
+                <div class="doctor_card" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_960_720.jpg"
+                        alt="Travel Category Image" class="cat_img">
+                    <div class="cat_title">Dr. Taylor Swift</div>
+                    <div class="position">Eye Doctor</div>
+                </div>
+            </div>
+        </div>
+        <!-- Book Appoinment Section -->
+        <div class="appoinment_section" data-aos="fade-up" data-aos-duration="1000">
+            <div class="appoinment_data_section">
+                <img src="https://cdn.pixabay.com/photo/2016/04/16/00/44/microbiologist-1332292_960_720.jpg" alt=""
+                    class="img">
+            </div>
+            <div class="appoinment_form_section">
+                <div class="form_data">
+                    <div class="title">Book An Appointment</div>
+                    <div class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                </div>
+                <form>
+                    <div class="input_group">
+                        <div class="dropdown_section">
+                            <label class="label">Departments</label>
+                            <select class="select">
+                                <option selected>-----------</option>
+                                <option value="department">Department</option>
+                                <option value="department">Department</option>
+                                <option value="department">Department</option>
+                            </select>
+                        </div>
+                        <div class="dropdown_section">
+                            <label class="label">Doctors</label>
+                            <select class="select">
+                                <option selected>-----------</option>
+                                <option value="doctor">Doctor</option>
+                                <option value="doctor">Doctor</option>
+                                <option value="doctor">Doctor</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input_group">
+                        <input type="date" class="input">
+                        <input type="text" class="input" placeholder="Fullname">
+                    </div>
+                    <div class="input_group">
+                        <input type="email" class="input" placeholder="Email ID">
+                        <input type="number" class="input" placeholder="Phone Number">
+                    </div>
+                    <div class="msg_box">
+                        <textarea cols="30" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn book_btn">Book Appoinment</button>
+                </form>
+            </div>
+        </div>
+        <!-- Departments Section -->
+        <div class="department_section" id="department">
+            <div class="tag_section tag_center">
+                <h6 class="tag_title">Departments</h6>
+                <div class="tag_indicator">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <h6 class="desc">Visit following department according to you issues.</h6>
+            <div class="department_box">
+                <div class="department_card" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="department_img_box">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/01/22/27/medical-3447369_960_720.jpg"
+                            alt="Department Image" class="department_img">
+                        <div class="department_category">
+                            Heart Related Issues
+                        </div>
+                        <div class="department_detail">
+                            <h6 class="department_title">Heart Related Treatment Department</h6>
+                            <h6 class="department_duration">24 Hours Available</h6>
+                            <div class="department_services">
+                                <div class="tag">Free checkup</div>
+                                <div class="tag">Treatment</div>
+                                <div class="tag">suggetion</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="department_card" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="department_img_box">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/08/07/23/eye-care-5016078_960_720.jpg"
+                            alt="Department Image" class="department_img">
+                        <div class="department_category">
+                            Eye Related Issues
+                        </div>
+                        <div class="department_detail">
+                            <h6 class="department_title">Eye Related Treatment Department</h6>
+                            <h6 class="department_duration">24 Hours Available</h6>
+                            <div class="department_services">
+                                <div class="tag">Free checkup</div>
+                                <div class="tag">Treatment</div>
+                                <div class="tag">suggetion</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="department_card" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="department_img_box">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/08/07/23/eye-care-5016078_960_720.jpg"
+                            alt="Department Image" class="department_img">
+                        <div class="department_category">
+                            Eye Related Issues
+                        </div>
+                        <div class="department_detail">
+                            <h6 class="department_title">Eye Related Treatment Department</h6>
+                            <h6 class="department_duration">24 Hours Available</h6>
+                            <div class="department_services">
+                                <div class="tag">Free checkup</div>
+                                <div class="tag">Treatment</div>
+                                <div class="tag">suggetion</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="department_card" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="department_img_box">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/01/22/27/medical-3447369_960_720.jpg"
+                            alt="Department Image" class="department_img">
+                        <div class="department_category">
+                            Heart Related Issues
+                        </div>
+                        <div class="department_detail">
+                            <h6 class="department_title">Heart Related Treatment Department</h6>
+                            <h6 class="department_duration">24 Hours Available</h6>
+                            <div class="department_services">
+                                <div class="tag">Free checkup</div>
+                                <div class="tag">Treatment</div>
+                                <div class="tag">suggetion</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Divider -->
+        <hr class="divider">
+        <!-- Latest Blogs Section -->
+        <div class="blog_section" id="blog">
+            <div class="tag_section tag_center">
+                <h6 class="tag_title">Our Blog</h6>
+                <div class="tag_indicator">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <h6 class="desc">Get Healthy Trick & Tip via our Blogs.</h6>
+            <div class="blog_section_box">
+                <div class="blog_box" data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="https://cdn.pixabay.com/photo/2017/04/27/08/29/man-2264825_640.jpg" alt="Blog Image"
+                        class="blog_img">
+                    <div class="blog_data">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar-days"></i> &nbsp; 21 April, 2023
+                        </p>
+                        <h6 class="blog_title">Exercise daily to be healthy</h6>
+                        <div class="blog_desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veniam vel ipsum
+                            voluptate itaque, quos necessitatibus harum debitis aperiam error, quos necessitatibus harum
+                            debitis aperiam error......
+                        </div>
+                        <button class="read_btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="blog_box" data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_640.jpg" alt="Blog Image"
+                        class="blog_img">
+                    <div class="blog_data">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar-days"></i> &nbsp; 21 April, 2023
+                        </p>
+                        <h6 class="blog_title">Exercise daily to be healthy</h6>
+                        <div class="blog_desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veniam vel ipsum
+                            voluptate itaque, quos necessitatibus harum debitis aperiam error, quos necessitatibus harum
+                            debitis aperiam error......
+                        </div>
+                        <button class="read_btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="blog_box" data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/26/22/47/motion-blur-1281675_640.jpg"
+                        alt="Blog Image" class="blog_img">
+                    <div class="blog_data">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar-days"></i> &nbsp; 21 April, 2023
+                        </p>
+                        <h6 class="blog_title">Exercise daily to be healthy</h6>
+                        <div class="blog_desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veniam vel ipsum
+                            voluptate itaque, quos necessitatibus harum debitis aperiam error, quos necessitatibus harum
+                            debitis aperiam error......
+                        </div>
+                        <button class="read_btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="blog_box" data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="https://cdn.pixabay.com/photo/2018/04/05/17/21/kettlebell-3293475_640.jpg"
+                        alt="Blog Image" class="blog_img">
+                    <div class="blog_data">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar-days"></i> &nbsp; 21 April, 2023
+                        </p>
+                        <h6 class="blog_title">Exercise daily to be healthy</h6>
+                        <div class="blog_desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veniam vel ipsum
+                            voluptate itaque, quos necessitatibus harum debitis aperiam error, quos necessitatibus harum
+                            debitis aperiam error......
+                        </div>
+                        <button class="read_btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="blog_box" data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_640.jpg" alt="Blog Image"
+                        class="blog_img">
+                    <div class="blog_data">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar-days"></i> &nbsp; 21 April, 2023
+                        </p>
+                        <h6 class="blog_title">Exercise daily to be healthy</h6>
+                        <div class="blog_desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veniam vel ipsum
+                            voluptate itaque, quos necessitatibus harum debitis aperiam error, quos necessitatibus harum
+                            debitis aperiam error......
+                        </div>
+                        <button class="read_btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="blog_box" data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="https://cdn.pixabay.com/photo/2018/04/05/17/22/kettlebell-3293481_640.jpg"
+                        alt="Blog Image" class="blog_img">
+                    <div class="blog_data">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar-days"></i> &nbsp; 21 April, 2023
+                        </p>
+                        <h6 class="blog_title">Exercise daily to be healthy</h6>
+                        <div class="blog_desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veniam vel ipsum
+                            voluptate itaque, quos necessitatibus harum debitis aperiam error, quos necessitatibus harum
+                            debitis aperiam error......
+                        </div>
+                        <button class="read_btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Divider -->
+        <hr class="divider">
+        <!-- Contact Us Section -->
+        <div class="contact_section" id="contact" data-aos="fade-up" data-aos-duration="1000">
+            <div class="tag_section tag_center">
+                <h6 class="tag_title">Contact</h6>
+                <div class="tag_indicator">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <h6 class="desc">Feel free to ask about your health issues.</h6>
+            <div class="contact_box">
+                <div class="contact_info">
+                    <div class="contact_data">
+                        <div class="contact_tag">
+                            <div class="icon"><i class="fa-solid fa-map-pin"></i></div>
+                            <div class="title">Address</div>
+                        </div>
+                        <div class="detail">58 Green park, New York, USA</div>
+                    </div>
+                    <div class="contact_data">
+                        <div class="contact_tag">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="title">Phone Number</div>
+                        </div>
+                        <div class="detail">9898989898</div>
+                    </div>
+                    <div class="contact_data">
+                        <div class="contact_tag">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="title">Email Address</div>
+                        </div>
+                        <div class="detail">info@example.com</div>
+                    </div>
+                </div>
+                <div class="contact_form">
+                    <form>
+                        <div class="input_group">
+                            <input type="text" class="input" placeholder="Fullname">
+                            <input type="email" class="input" placeholder="Email">
+                        </div>
+                        <div class="input_group">
+                            <input type="text" class="input" placeholder="Subject">
+                            <input type="number" class="input" placeholder="Contact Number">
+                        </div>
+                        <div class="msg_box">
+                            <textarea cols="30" rows="5" placeholder="Describe your health issues..."></textarea>
+                        </div>
+                        <button class="btn submit_btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section -->
+        <div class="footer_section">
+            <div class="about_company">
+                <a href="./index.html" class="logo_link">
+                    Hospital
+                </a>
+                <div class="company_desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, necessitatibus vel. Deserunt
+                    quisquam fuga maiores voluptates provident voluptatibus at, sint aut beatae. Cupiditate, optio est!
+                </div>
+                <div class="social_link">
+                    <div class="link">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright">
+                    <a href="https://goku-portfolio.netlify.app/" class="developer" target="_blank">Goku</a> © 2023. All
+                    Rights Reserved.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Custom JavaScript link -->
+    <script src="./main.js"></script>
+
+    <!-- AOS JavaScript Cdn link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS Animation JavaScript Initialized -->
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
