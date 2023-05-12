@@ -387,7 +387,7 @@ li{
     background: var(--secondary);
 }
 
-/* Travel Categories Section Styling */
+/* Doctor Section Styling */
 .doctors_section{
     position: relative;
     width: 100%;
@@ -575,7 +575,7 @@ li{
     object-position: center;
 }
 
-/* Popular Destination Section Styling */
+/* Department Section Styling */
 .department_section{
     width: 100%;
     height: auto;
